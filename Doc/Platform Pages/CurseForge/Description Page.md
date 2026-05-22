@@ -55,10 +55,14 @@ No config files needed on the server. Everything is handled via the native **Edi
 
 ## ☕ Support
 
-If you enjoy the **Instant Gratification** collection, consider supporting the next update!
+If you enjoy the **Instant Gratification** collection, consider fueling the next update!
 
-- [Ko-fi](https://ko-fi.com/dasikigaijin/tip)
-- [SocioBuzz (Local Indonesian Payments)](https://sociabuzz.com/dasikigaijin/tribe)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dasikigaijin/tip)
+[![SocioBuzz](https://img.shields.io/badge/SocioBuzz-Local_Support-7BB32E?style=for-the-badge)](https://sociabuzz.com/dasikigaijin/tribe)
+[![Saweria](https://img.shields.io/badge/Saweria-Local_Support-FFA500?style=for-the-badge)](https://saweria.co/DasikIgaijinn)
+
+> [!NOTE]
+> **Indonesian Users:** SocioBuzz and Saweria support local payment methods (Gopay, OVO, Dana, etc.) if you want to support me without using PayPal/Ko-fi!
 
 ---
 
