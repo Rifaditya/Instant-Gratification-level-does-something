@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "leveldoessomething",
+  "version": "${version}",
+  "name": "Level Does Something",
+  "description": "Rewards players for accumulating experience levels by granting passive attribute boosts and ambient visual/sound feedback.",
+  "authors": [
+    "Antigravity",
+    "Rifaditya"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/example/level-does-something"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/leveldoessomething/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.instantgratification.leveldoessomething.LevelDoesSomethingFabric"
+    ],
+    "client": [
+      "net.instantgratification.leveldoessomething.LevelDoesSomethingFabricClient"
+    ],
+    "modmenu": [
+      "net.instantgratification.leveldoessomething.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "level-does-something.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.1.2",
+    "dasik-library": ">=1.7.1",
+    "java": ">=25"
+  },
+  "suggests": {
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}

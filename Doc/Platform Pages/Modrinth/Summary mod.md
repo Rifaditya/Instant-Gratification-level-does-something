@@ -1,0 +1,1 @@
+Level Does Something! is a progression mod for Minecraft 26.1+ that rewards players for hoarding experience levels by granting passive, custom-scalable boosts to five player attributes (break speed, damage, speed, luck, health), swirling ambient particles, milestone audio chimes, and pitch-shifted experience pickups. Configurable via server GameRules and local client settings.

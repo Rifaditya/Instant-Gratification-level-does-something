@@ -1,0 +1,27 @@
+{
+  "gamerule.category.leveldoessomething.level_power": "Level Power",
+  
+  "gamerule.leveldoessomething.levelPowerCurveType": "Level Power Curve Type",
+  "gamerule.leveldoessomething.levelPowerCurveType.description": "The mathematical curve used to calculate attribute scaling. 0 = Exponential Tier steps, 1 = Smooth Logarithmic curve, 2 = Simple Linear scaling. Default: 1.",
+  
+  "gamerule.leveldoessomething.levelPowerBaseMultiplier": "Level Power Base Multiplier",
+  "gamerule.leveldoessomething.levelPowerBaseMultiplier.description": "The base multiplier applied per level in basis points (1/10000). A value of 10 represents 0.001 (0.1% increase). Default: 10.",
+  
+  "gamerule.leveldoessomething.levelPowerMaxTier": "Level Power Max Tier",
+  "gamerule.leveldoessomething.levelPowerMaxTier.description": "The maximum tier multiplier allowed when using the exponential tier system. Default: 10.",
+  
+  "gamerule.leveldoessomething.levelPowerEnableAura": "Level Power Enable Aura",
+  "gamerule.leveldoessomething.levelPowerEnableAura.description": "When true, players at or above level 30 will spawn ambient experience-themed particles visible to all surrounding players. Default: true.",
+  
+  "gamerule.leveldoessomething.levelPowerEnableSoundPitch": "Level Power Enable Sound Pitch",
+  "gamerule.leveldoessomething.levelPowerEnableSoundPitch.description": "When true, experience collection sounds will be pitch-shifted higher as the player's level increases, providing auditory feedback. Default: true.",
+
+  "text.leveldoessomething.config.title": "Level Does Something Config",
+  "text.leveldoessomething.config.category.general": "General Settings",
+  "text.leveldoessomething.config.option.enableClientAuraParticles": "Enable Client Aura Particles",
+  "text.leveldoessomething.config.option.enableClientAuraParticles.tooltip": "If set to false, disables rendering of all level-based experience aura particles locally, improving client performance.",
+  "text.leveldoessomething.config.option.enableClientSoundPitch": "Enable Client Sound Pitch",
+  "text.leveldoessomething.config.option.enableClientSoundPitch.tooltip": "If set to false, disables client-side pitch shifting of experience collection sounds.",
+  
+  "modmenu.description.leveldoessomething": "Rewards players for accumulating experience levels by granting passive attribute boosts and ambient visual/sound feedback."
+}
