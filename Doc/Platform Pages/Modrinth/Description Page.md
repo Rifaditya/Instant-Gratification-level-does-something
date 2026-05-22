@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Rifaditya/Instant-Gratification-level-does-something/main/src/main/resources/assets/leveldoessomething/icon.png" width="128" alt="Level Does Something Icon">
+  <img src="../../Media/icon.png" width="128" alt="Level Does Something Icon">
 </div>
 
 <p align="center">
