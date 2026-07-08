@@ -1,4 +1,4 @@
-# Level Does Something: Documentation Index
+﻿# Level Does Something: Documentation Index
 
 Welcome to the central documentation hub for **Level Does Something**. This project follows the **Standard Core Alignment Protocol v2.1** documentation standard.
 
@@ -21,8 +21,12 @@ Welcome to the central documentation hub for **Level Does Something**. This proj
 
 ---
 
-## 🎨 Media & Assets
+## ðŸŽ¨ Media & Assets
 ![Mod Icon](Media/icon.png)
 *   Explore the **[Media folder](Media/)**
 
 ---
+
+---
+## 🧭 Navigation
+- [⬆ Back to Collection](../../philosophy.md)
