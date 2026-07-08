@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="../../Media/icon.png" width="128" alt="Level Does Something Icon">
 </div>
 
@@ -47,6 +47,11 @@ Server operators can select how attributes scale:
 
 ## ⚙️ Configuration (Native Game Rules)
 
+
+> [!IMPORTANT]
+> **Config vs. In-Game GameRules:**
+> The global configuration file only defines **default values for new worlds** at creation time.
+> If you have **already created/opened a world**, changing the config file will have no effect. You must change the settings in-game using the **Edit Game Rules** UI screen or the /gamerule command.
 No config files needed on the server. Everything is handled via the native **Edit Game Rules** screen or commands:
 
 ```sql
