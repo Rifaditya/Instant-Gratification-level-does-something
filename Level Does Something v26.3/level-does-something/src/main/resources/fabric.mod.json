@@ -10,8 +10,7 @@
     ],
     "contact": {
         "homepage": "https://github.com/Rifaditya/Instant-Gratification-level-does-something",
-        "sources": "https://github.com/Rifaditya/Instant-Gratification-level-does-something",
-        "issues": "https://github.com/Rifaditya/Instant-Gratification-level-does-something/issues"
+        "sources": "https://github.com/Rifaditya/Instant-Gratification-level-does-something"
     },
     "license": "GPL-3.0-or-later",
     "icon": "assets/leveldoessomething/icon.png",
@@ -30,28 +29,23 @@
     "mixins": [
         "level-does-something.mixins.json"
     ],
-    "custom": {
-        "modrinth": {
-            "projectId": "level-does-something",
-            "slug": "level-does-something"
-        },
-        "modmenu": {
-            "links": {
-                "modmenu.donate": "https://ko-fi.com/dasikigaijin",
-                "modmenu.kofi": "https://ko-fi.com/dasikigaijin"
-            }
-        }
-    },
     "depends": {
         "fabricloader": ">=0.19.3",
-        "minecraft": ">=26.2-",
+        "minecraft": ">=26.3-",
         "dasik-library": ">=1.8.38",
         "java": ">=25"
     },
     "suggests": {
         "yet-another-config-lib": "*",
         "yet_another_config_lib_v3": "*",
-        "cloth-config": "*",
         "modmenu": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.donate": "https://ko-fi.com/dasikigaijin",
+                "modmenu.kofi": "https://ko-fi.com/dasikigaijin"
+            }
+        }
     }
 }
