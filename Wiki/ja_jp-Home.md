@@ -12,10 +12,10 @@
 
 | Minecraft バージョン | チャンネル | ビルド成果物 | クイックアクセス |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 MC 26.2 Wiki に入る|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 MC 26.3 Wiki に入る|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 MC 26.2 Wiki に入る|ja_jp-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 MC 26.3 Wiki に入る|ja_jp-26.3-Home]] |
 
-Fabric Loader、Java実行環境、DasikLibraryの要件については、[[バージョン互換性マトリクス|Version-Compatibility]] をご確認ください。
+Fabric Loader、Java実行環境、DasikLibraryの要件については、[[バージョン互換性マトリクス|ja_jp-Version-Compatibility]] をご確認ください。
 
 ---
 
@@ -42,9 +42,9 @@ Fabric Loader、Java実行環境、DasikLibraryの要件については、[[バ�
 ---
 
 ## 📚 クイックリンク
-* [[⚙️ バージョン互換性マトリクス|Version-Compatibility]]
-* [[❓ トラブルシューティング & FAQ|Troubleshooting-and-FAQ]]
-* [[🛠️ 開発者環境設定 & Gradle ビルドガイド|Developer-Setup-and-Building]]
+* [[⚙️ バージョン互換性マトリクス|ja_jp-Version-Compatibility]]
+* [[❓ トラブルシューティング & FAQ|ja_jp-Troubleshooting-and-FAQ]]
+* [[🛠️ 開発者環境設定 & Gradle ビルドガイド|ja_jp-Developer-Setup-and-Building]]
 * [[26.2 経験値スケーリングと計算曲線|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 経験値スケーリングと計算曲線|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

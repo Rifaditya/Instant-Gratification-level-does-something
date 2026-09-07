@@ -12,10 +12,10 @@
 
 | 마인크래프트 버전 | 출시 채널 | 빌드 아티팩트 | 바로가기 |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 MC 26.2 위키 들어가기|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 MC 26.3 위키 들어가기|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 MC 26.2 위키 들어가기|ko_kr-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 MC 26.3 위키 들어가기|ko_kr-26.3-Home]] |
 
-패브릭 로더(Fabric Loader), Java 런타임 및 DasikLibrary 호환성에 대해서는 [[버전 호환성 매트릭스|Version-Compatibility]]를 참조하십시오.
+패브릭 로더(Fabric Loader), Java 런타임 및 DasikLibrary 호환성에 대해서는 [[버전 호환성 매트릭스|ko_kr-Version-Compatibility]]를 참조하십시오.
 
 ---
 
@@ -42,9 +42,9 @@
 ---
 
 ## 📚 빠른 탐색
-* [[⚙️ 버전 호환성 매트릭스|Version-Compatibility]]
-* [[❓ 문제 해결 및 FAQ|Troubleshooting-and-FAQ]]
-* [[🛠️ 개발자 설정 및 Gradle 빌드 가이드|Developer-Setup-and-Building]]
+* [[⚙️ 버전 호환성 매트릭스|ko_kr-Version-Compatibility]]
+* [[❓ 문제 해결 및 FAQ|ko_kr-Troubleshooting-and-FAQ]]
+* [[🛠️ 개발자 설정 및 Gradle 빌드 가이드|ko_kr-Developer-Setup-and-Building]]
 * [[26.2 경험치 스케일링 및 수학 곡선|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 경험치 스케일링 및 수학 곡선|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

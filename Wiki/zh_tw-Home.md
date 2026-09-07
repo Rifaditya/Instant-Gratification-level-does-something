@@ -12,10 +12,10 @@
 
 | 遊戲版本 | 發布渠道 | 建置檔案 | 快速入口 |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | 現代穩定版 | `level-does-something-1.0.5+26.2.jar` | [[👉 進入 MC 26.2 文檔|26.2-Home]] |
-| **Minecraft 26.3** | 現代先行版 | `level-does-something-1.0.5+26.3.jar` | [[👉 進入 MC 26.3 文檔|26.3-Home]] |
+| **Minecraft 26.2** | 現代穩定版 | `level-does-something-1.0.5+26.2.jar` | [[👉 進入 MC 26.2 文檔|zh_tw-26.2-Home]] |
+| **Minecraft 26.3** | 現代先行版 | `level-does-something-1.0.5+26.3.jar` | [[👉 進入 MC 26.3 文檔|zh_tw-26.3-Home]] |
 
-關於 Fabric Loader、Java 執行環境以及 DasikLibrary 依賴相容性，請參閱 [[版本相容性矩陣|Version-Compatibility]]。
+關於 Fabric Loader、Java 執行環境以及 DasikLibrary 依賴相容性，請參閱 [[版本相容性矩陣|zh_tw-Version-Compatibility]]。
 
 ---
 
@@ -42,9 +42,9 @@
 ---
 
 ## 📚 常用導航
-* [[⚙️ 版本相容性矩陣|Version-Compatibility]]
-* [[❓ 疑難排解與常見問題 (FAQ)|Troubleshooting-and-FAQ]]
-* [[🛠️ 開發者配置與 Gradle 建置指南|Developer-Setup-and-Building]]
+* [[⚙️ 版本相容性矩陣|zh_tw-Version-Compatibility]]
+* [[❓ 疑難排解與常見問題 (FAQ)|zh_tw-Troubleshooting-and-FAQ]]
+* [[🛠️ 開發者配置與 Gradle 建置指南|zh_tw-Developer-Setup-and-Building]]
 * [[26.2 經驗強化與數學曲線|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 經驗強化與數學曲線|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

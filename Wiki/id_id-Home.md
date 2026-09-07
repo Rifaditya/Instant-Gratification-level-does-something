@@ -12,10 +12,10 @@ Pilih versi target Minecraft Anda untuk mengakses dokumentasi mekanik, kurva mat
 
 | Versi Minecraft | Saluran Rilis | Berkas Biner | Navigasi Cepat |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Masuk ke Wiki MC 26.2|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Masuk ke Wiki MC 26.3|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Masuk ke Wiki MC 26.2|id_id-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Masuk ke Wiki MC 26.3|id_id-26.3-Home]] |
 
-Untuk kompatibilitas Fabric Loader, runtime Java, dan DasikLibrary, silakan periksa [[Matriks Kompatibilitas Versi|Version-Compatibility]].
+Untuk kompatibilitas Fabric Loader, runtime Java, dan DasikLibrary, silakan periksa [[Matriks Kompatibilitas Versi|id_id-Version-Compatibility]].
 
 ---
 
@@ -42,9 +42,9 @@ Menyimpan level pengalaman memberikan peningkatan pasif berkelanjutan ke 5 atrib
 ---
 
 ## 📚 Bagian Penting
-* [[⚙️ Matriks Kompatibilitas Versi|Version-Compatibility]]
-* [[❓ Pemecahan Masalah & FAQ|Troubleshooting-and-FAQ]]
-* [[🛠️ Panduan Pengembang & Kompilasi Gradle|Developer-Setup-and-Building]]
+* [[⚙️ Matriks Kompatibilitas Versi|id_id-Version-Compatibility]]
+* [[❓ Pemecahan Masalah & FAQ|id_id-Troubleshooting-and-FAQ]]
+* [[🛠️ Panduan Pengembang & Kompilasi Gradle|id_id-Developer-Setup-and-Building]]
 * [[26.2 Penskalaan XP & Kurva Matematika|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 Penskalaan XP & Kurva Matematika|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

@@ -12,10 +12,10 @@ Sélectionnez votre version ciblée de Minecraft pour accéder à la documentati
 
 | Version Minecraft | Canal | Fichier binaire | Navigation rapide |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Entrer dans le Wiki MC 26.2|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Entrer dans le Wiki MC 26.3|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Entrer dans le Wiki MC 26.2|fr_fr-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Entrer dans le Wiki MC 26.3|fr_fr-26.3-Home]] |
 
-Pour vérifier la compatibilité avec Fabric Loader, Java et DasikLibrary, consultez la [[Matrice de compatibilité|Version-Compatibility]].
+Pour vérifier la compatibilité avec Fabric Loader, Java et DasikLibrary, consultez la [[Matrice de compatibilité|fr_fr-Version-Compatibility]].
 
 ---
 
@@ -42,9 +42,9 @@ Conserver des niveaux d'expérience augmente 5 attributs majeurs :
 ---
 
 ## 📚 Liens Rapides
-* [[⚙️ Matrice de compatibilité|Version-Compatibility]]
-* [[❓ Dépannage et FAQ|Troubleshooting-and-FAQ]]
-* [[🛠️ Guide de configuration & Compilation Gradle|Developer-Setup-and-Building]]
+* [[⚙️ Matrice de compatibilité|fr_fr-Version-Compatibility]]
+* [[❓ Dépannage et FAQ|fr_fr-Troubleshooting-and-FAQ]]
+* [[🛠️ Guide de configuration & Compilation Gradle|fr_fr-Developer-Setup-and-Building]]
 * [[26.2 Échelonnage d'expérience et courbes|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 Échelonnage d'expérience et courbes|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

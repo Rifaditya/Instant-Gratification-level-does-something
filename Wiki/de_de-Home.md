@@ -12,10 +12,10 @@ Wählen Sie Ihre Zielversion von Minecraft, um auf versionsspezifische Mechanike
 
 | Minecraft-Version | Kanal | Build-Artefakt | Schnellzugriff |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 MC 26.2 Wiki öffnen|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 MC 26.3 Wiki öffnen|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 MC 26.2 Wiki öffnen|de_de-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 MC 26.3 Wiki öffnen|de_de-26.3-Home]] |
 
-Detaillierte Informationen zu Fabric Loader, Java und DasikLibrary finden Sie in der [[Versionskompatibilitätsmatrix|Version-Compatibility]].
+Detaillierte Informationen zu Fabric Loader, Java und DasikLibrary finden Sie in der [[Versionskompatibilitätsmatrix|de_de-Version-Compatibility]].
 
 ---
 
@@ -42,9 +42,9 @@ Das Halten von XP-Leveln stärkt 5 wichtige Attribute:
 ---
 
 ## 📚 Wichtige Bereiche
-* [[⚙️ Versionskompatibilitätsmatrix|Version-Compatibility]]
-* [[❓ Fehlerbehebung & FAQ|Troubleshooting-and-FAQ]]
-* [[🛠️ Entwickler-Setup & Gradle-Builds|Developer-Setup-and-Building]]
+* [[⚙️ Versionskompatibilitätsmatrix|de_de-Version-Compatibility]]
+* [[❓ Fehlerbehebung & FAQ|de_de-Troubleshooting-and-FAQ]]
+* [[🛠️ Entwickler-Setup & Gradle-Builds|de_de-Developer-Setup-and-Building]]
 * [[26.2 Erfahrungsskalierung & Kurven|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 Erfahrungsskalierung & Kurven|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

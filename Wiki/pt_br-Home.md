@@ -12,10 +12,10 @@ Escolha a versão desejada do Minecraft para visualizar as mecânicas, fórmulas
 
 | Versão Minecraft | Canal | Arquivo compilado | Acesso Rápido |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Entrar na Wiki do MC 26.2|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Entrar na Wiki do MC 26.3|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Entrar na Wiki do MC 26.2|pt_br-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Entrar na Wiki do MC 26.3|pt_br-26.3-Home]] |
 
-Para conferir requisitos de Fabric Loader, Java e DasikLibrary, consulte a [[Matriz de Compatibilidade de Versões|Version-Compatibility]].
+Para conferir requisitos de Fabric Loader, Java e DasikLibrary, consulte a [[Matriz de Compatibilidade de Versões|pt_br-Version-Compatibility]].
 
 ---
 
@@ -42,9 +42,9 @@ Manter seus níveis de experiência concede melhorias passivas a 5 atributos:
 ---
 
 ## 📚 Navegação Rápida
-* [[⚙️ Matriz de Compatibilidade de Versões|Version-Compatibility]]
-* [[❓ Solução de Problemas e FAQ|Troubleshooting-and-FAQ]]
-* [[🛠️ Guia de Configuração e Compilação Gradle|Developer-Setup-and-Building]]
+* [[⚙️ Matriz de Compatibilidade de Versões|pt_br-Version-Compatibility]]
+* [[❓ Solução de Problemas e FAQ|pt_br-Troubleshooting-and-FAQ]]
+* [[🛠️ Guia de Configuração e Compilação Gradle|pt_br-Developer-Setup-and-Building]]
 * [[26.2 Escalonamento de XP e Curvas Matemáticas|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 Escalonamento de XP e Curvas Matemáticas|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

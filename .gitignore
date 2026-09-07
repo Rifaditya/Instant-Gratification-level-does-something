@@ -14,3 +14,7 @@ Doc/Marketing/
 
 # GitHub Wiki local clone
 .wiki/
+
+# Ignored System & Wiki Repo Artifacts
+desktop.ini
+**/desktop.ini

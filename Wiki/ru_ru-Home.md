@@ -12,10 +12,10 @@
 
 | Версия Minecraft | Канал | Бинарный артефакт | Быстрый переход |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Открыть вики MC 26.2|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Открыть вики MC 26.3|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Открыть вики MC 26.2|ru_ru-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Открыть вики MC 26.3|ru_ru-26.3-Home]] |
 
-Для проверки требований к Fabric Loader, Java и библиотеке DasikLibrary ознакомьтесь с [[Матрицей совместимости версий|Version-Compatibility]].
+Для проверки требований к Fabric Loader, Java и библиотеке DasikLibrary ознакомьтесь с [[Матрицей совместимости версий|ru_ru-Version-Compatibility]].
 
 ---
 
@@ -42,9 +42,9 @@
 ---
 
 ## 📚 Основные разделы
-* [[⚙️ Матрица совместимости версий|Version-Compatibility]]
-* [[❓ Устранение неполадок и FAQ|Troubleshooting-and-FAQ]]
-* [[🛠️ Руководство по сборке Gradle для разработчиков|Developer-Setup-and-Building]]
+* [[⚙️ Матрица совместимости версий|ru_ru-Version-Compatibility]]
+* [[❓ Устранение неполадок и FAQ|ru_ru-Troubleshooting-and-FAQ]]
+* [[🛠️ Руководство по сборке Gradle для разработчиков|ru_ru-Developer-Setup-and-Building]]
 * [[26.2 Математические кривые масштабирования|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 Математические кривые масштабирования|26.3-Experience-Scaling-and-Mathematical-Curves]]
 

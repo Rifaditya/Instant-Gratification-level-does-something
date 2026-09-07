@@ -12,10 +12,10 @@ Selecciona tu versión objetivo de Minecraft para consultar la documentación ai
 
 | Versión de Minecraft | Canal de lanzamiento | Archivo compilado | Acceso directo |
 | :--- | :--- | :--- | :--- |
-| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Entrar a la Wiki de MC 26.2|26.2-Home]] |
-| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Entrar a la Wiki de MC 26.3|26.3-Home]] |
+| **Minecraft 26.2** | Modern Standard | `level-does-something-1.0.5+26.2.jar` | [[👉 Entrar a la Wiki de MC 26.2|es_es-26.2-Home]] |
+| **Minecraft 26.3** | Modern Lead | `level-does-something-1.0.5+26.3.jar` | [[👉 Entrar a la Wiki de MC 26.3|es_es-26.3-Home]] |
 
-Para verificar la compatibilidad con Fabric Loader, Java y DasikLibrary, consulta la [[Matriz de compatibilidad de versiones|Version-Compatibility]].
+Para verificar la compatibilidad con Fabric Loader, Java y DasikLibrary, consulta la [[Matriz de compatibilidad de versiones|es_es-Version-Compatibility]].
 
 ---
 
@@ -42,9 +42,9 @@ Mantener niveles de experiencia otorga bonificaciones pasivas constantes a 5 atr
 ---
 
 ## 📚 Enlaces Rápidos
-* [[⚙️ Matriz de compatibilidad de versiones|Version-Compatibility]]
-* [[❓ Preguntas frecuentes y solución de problemas|Troubleshooting-and-FAQ]]
-* [[🛠️ Guía de compilación Gradle para desarrolladores|Developer-Setup-and-Building]]
+* [[⚙️ Matriz de compatibilidad de versiones|es_es-Version-Compatibility]]
+* [[❓ Preguntas frecuentes y solución de problemas|es_es-Troubleshooting-and-FAQ]]
+* [[🛠️ Guía de compilación Gradle para desarrolladores|es_es-Developer-Setup-and-Building]]
 * [[26.2 Escalado de experiencia y curvas matemáticas|26.2-Experience-Scaling-and-Mathematical-Curves]]
 * [[26.3 Escalado de experiencia y curvas matemáticas|26.3-Experience-Scaling-and-Mathematical-Curves]]
 
