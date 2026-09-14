@@ -4,6 +4,12 @@ All conceptual changes and design refinements for **Level Does Something** are r
 
 ---
 
+## [1.0.8]
+### Fixed
+- **ClientPacketListenerMixin Superclass Shadow Fix**: Removed invalid `@Shadow protected Minecraft minecraft;` in `ClientPacketListenerMixin`. The `minecraft` field is declared on `ClientCommonPacketListenerImpl` (superclass), which caused SpongePowered Mixin to crash during startup with an `InvalidMixinException`. Now accesses `Minecraft.getInstance().player` directly.
+
+---
+
 ## [1.0.7]
 ### Fixed
 - **GameRule Identifier Path Compliance**: Converted GameRule registration keys from CamelCase (`levelPowerCurveType`, etc.) to lower snake_case (`level_power_curve_type`, etc.) to comply with Minecraft's `[a-z0-9/._-]` `Identifier` path validation, preventing an `IdentifierException` during startup.

@@ -2,7 +2,7 @@
 
 > **Mod Project Master Ground-Truth Document**  
 > *Last Synchronized: 2026-09-14*  
-> **Modrinth ID**: *Unregistered* | **CurseForge ID**: *Unregistered* | **Lead SemVer**: `1.0.7`
+> **Modrinth ID**: *Unregistered* | **CurseForge ID**: *Unregistered* | **Lead SemVer**: `1.0.8`
 
 ---
 
@@ -10,8 +10,8 @@
 
 | Target MC | Generational Era | Live on Platforms | Next Queued Version | Status & Cadence Action | Feature Highlights / Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **MC 26.2** | Modern Standard | *(Unreleased)* | `1.0.7+26.2` | 🛠️ **Local Development** | GameRule Identifier path compliance (snake_case), startup crash fix, YACL v3 migration. |
-| **MC 26.3** | Modern Lead | `None` | `1.0.7+26.3` | ⏸️ **PARITY HOLD** | 1. **Why**: Held in archive until MC 26.2 reaches 1.0.7 feature parity on Modrinth/CurseForge.<br>2. **Until When**: Lifted once 1.0.7 parity is achieved.<br>3. **Resume Action**: Flip to `- [ ]` for daily automated release hub dispatch. |
+| **MC 26.2** | Modern Standard | *(Unreleased)* | `1.0.8+26.2` | 🛠️ **Local Development** | Superclass `@Shadow` removal in `ClientPacketListenerMixin`, GameRule snake_case compliance, YACL v3 migration. |
+| **MC 26.3** | Modern Lead | `None` | `1.0.8+26.3` | ⏸️ **PARITY HOLD** | 1. **Why**: Held in archive until MC 26.2 reaches 1.0.8 feature parity on Modrinth/CurseForge.<br>2. **Until When**: Lifted once 1.0.8 parity is achieved.<br>3. **Resume Action**: Flip to `- [ ]` for daily automated release hub dispatch. |
 
 ---
 
