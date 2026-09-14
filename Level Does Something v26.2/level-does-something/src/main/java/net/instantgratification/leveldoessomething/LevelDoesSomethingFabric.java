@@ -41,7 +41,7 @@ public class LevelDoesSomethingFabric implements ModInitializer {
 
         // Register GameRules using DynamicGameRuleManager
         RULE_CURVE_TYPE = DynamicGameRuleManager.integerRule(
-            MOD_ID + ":levelPowerCurveType", LEVEL_POWER_CATEGORY, 1
+            MOD_ID + ":level_power_curve_type", LEVEL_POWER_CATEGORY, 1
         )
         .min(0).max(2)
         .name("Level Power Curve Type")
@@ -50,7 +50,7 @@ public class LevelDoesSomethingFabric implements ModInitializer {
 
         // 10 basis points = 0.001 (0.1% boost per level/tier)
         RULE_BASE_MULTIPLIER = DynamicGameRuleManager.integerRule(
-            MOD_ID + ":levelPowerBaseMultiplier", LEVEL_POWER_CATEGORY, 10
+            MOD_ID + ":level_power_base_multiplier", LEVEL_POWER_CATEGORY, 10
         )
         .min(0).max(1000)
         .name("Level Power Base Multiplier")
@@ -58,7 +58,7 @@ public class LevelDoesSomethingFabric implements ModInitializer {
         .register();
 
         RULE_MAX_TIER = DynamicGameRuleManager.integerRule(
-            MOD_ID + ":levelPowerMaxTier", LEVEL_POWER_CATEGORY, 10
+            MOD_ID + ":level_power_max_tier", LEVEL_POWER_CATEGORY, 10
         )
         .min(1).max(30)
         .name("Level Power Max Tier")
@@ -66,14 +66,14 @@ public class LevelDoesSomethingFabric implements ModInitializer {
         .register();
 
         RULE_ENABLE_AURA = DynamicGameRuleManager.booleanRule(
-            MOD_ID + ":levelPowerEnableAura", LEVEL_POWER_CATEGORY, true
+            MOD_ID + ":level_power_enable_aura", LEVEL_POWER_CATEGORY, true
         )
         .name("Level Power Enable Aura")
         .description("When true, players at or above level 30 will spawn ambient experience-themed particles visible to all surrounding players. Default: true.")
         .register();
 
         RULE_ENABLE_SOUND_PITCH = DynamicGameRuleManager.booleanRule(
-            MOD_ID + ":levelPowerEnableSoundPitch", LEVEL_POWER_CATEGORY, true
+            MOD_ID + ":level_power_enable_sound_pitch", LEVEL_POWER_CATEGORY, true
         )
         .name("Level Power Enable Sound Pitch")
         .description("When true, experience collection sounds will be pitch-shifted higher as the player's level increases, providing auditory feedback. Default: true.")

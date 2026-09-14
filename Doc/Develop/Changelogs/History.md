@@ -4,6 +4,12 @@ All conceptual changes and design refinements for **Level Does Something** are r
 
 ---
 
+## [1.0.7]
+### Fixed
+- **GameRule Identifier Path Compliance**: Converted GameRule registration keys from CamelCase (`levelPowerCurveType`, etc.) to lower snake_case (`level_power_curve_type`, etc.) to comply with Minecraft's `[a-z0-9/._-]` `Identifier` path validation, preventing an `IdentifierException` during startup.
+
+---
+
 ## [1.0.6]
 ### Fixed
 - **Mixin Startup Crash**: Removed redundant `@Shadow getEntityData()` in `PlayerMixin`. Since `PlayerMixin` extends `LivingEntity` (and `Entity`), `getEntityData()` is natively inherited. The explicit shadow declaration caused an `InvalidMixinException` on game startup.
