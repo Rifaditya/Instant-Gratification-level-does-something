@@ -4,6 +4,12 @@ All conceptual changes and design refinements for **Level Does Something** are r
 
 ---
 
+## [1.0.6]
+### Fixed
+- **Mixin Startup Crash**: Removed redundant `@Shadow getEntityData()` in `PlayerMixin`. Since `PlayerMixin` extends `LivingEntity` (and `Entity`), `getEntityData()` is natively inherited. The explicit shadow declaration caused an `InvalidMixinException` on game startup.
+
+---
+
 ## [1.0.4+A-26.1.2] - 2026-05-22
 ### Fixed
 - **Mixin Prefixing**: Prefixed `@Unique` fields and methods in `PlayerMixin` with `leveldoessomething$` to prevent namespace collisions.

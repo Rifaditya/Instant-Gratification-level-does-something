@@ -18,7 +18,6 @@ import net.instantgratification.leveldoessomething.util.LevelAuraTracker;
 import net.instantgratification.leveldoessomething.util.PlayerLevelAttributesHandler;
 import net.dasik.social.api.gamerule.DynamicGameRuleManager;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -26,8 +25,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(Player.class)
 public abstract class PlayerMixin extends LivingEntity implements LevelAuraTracker {
-
-    @Shadow public abstract SynchedEntityData getEntityData();
 
     @Unique
     private static final EntityDataAccessor<Integer> leveldoessomething$DATA_AURA_LEVEL = SynchedEntityData.defineId(Player.class, EntityDataSerializers.INT);
