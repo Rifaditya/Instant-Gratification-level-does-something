@@ -28,7 +28,7 @@ public abstract class ClientPacketListenerMixin {
             target = "Lnet/minecraft/client/multiplayer/ClientLevel;playLocalSound(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZ)V"
         )
     )
-    private void redirectXPOrbSound(ClientLevel clientLevel, double x, double y, double z, SoundEvent sound, SoundSource source, float volume, float pitch, ClientboundTakeItemEntityPacket packet) {
+    private void redirectXPOrbSound(ClientLevel clientLevel, double x, double y, double z, SoundEvent sound, SoundSource source, float volume, float pitch, boolean distanceDelay, ClientboundTakeItemEntityPacket packet) {
         if (sound == SoundEvents.EXPERIENCE_ORB_PICKUP) {
             // Check if client-side config is enabled
             boolean clientEnableSound = LevelDoesSomethingConfig.get().enableClientSoundPitch;
@@ -46,13 +46,13 @@ public abstract class ClientPacketListenerMixin {
                     float shift = 0.015f * levelVal;
                     float newPitch = Math.min(pitch + shift, 2.0f);
                     
-                    clientLevel.playLocalSound(x, y, z, sound, source, volume, newPitch, false);
+                    clientLevel.playLocalSound(x, y, z, sound, source, volume, newPitch, distanceDelay);
                     return;
                 }
             }
         }
         
         // Fallback to default sound playing behavior
-        clientLevel.playLocalSound(x, y, z, sound, source, volume, pitch, false);
+        clientLevel.playLocalSound(x, y, z, sound, source, volume, pitch, distanceDelay);
     }
 }
