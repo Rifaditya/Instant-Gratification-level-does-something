@@ -2,7 +2,7 @@
 
 Welcome to the central documentation hub for **Level Does Something**. This project follows the **Standard Core Alignment Protocol v2.1** documentation standard.
 
-## ?? Navigation
+## 📌 Navigation
 
 ### [Core Concepts](Concept/)
 *   **[Original Design Document](Concept/concept_level_does_something.md)**

@@ -1,8 +1,8 @@
-﻿# Level Does Something: Documentation Index
+# Level Does Something: Documentation Index
 
 Welcome to the central documentation hub for **Level Does Something**. This project follows the **Standard Core Alignment Protocol v2.1** documentation standard.
 
-## ?? Navigation
+## 📌 Navigation
 
 ### [Core Concepts](Concept/)
 *   **[Original Design Document](Concept/concept_level_does_something.md)**
@@ -10,7 +10,6 @@ Welcome to the central documentation hub for **Level Does Something**. This proj
 ### [Development](Develop/)
 *   **[Architecture](Develop/Architecture/)**
 *   **[Changelogs](Develop/Changelogs/History.md)**
-*   **[Audit Logs](Develop/Audit/)**
 
 ### [Player Guide](Players/)
 *   **[Player Guide](Players/guide.md)**: Detailed gameplay and configuration instructions.
@@ -21,12 +20,10 @@ Welcome to the central documentation hub for **Level Does Something**. This proj
 
 ---
 
-## ðŸŽ¨ Media & Assets
+## 🎨 Media & Assets
 ![Mod Icon](Media/icon.png)
 *   Explore the **[Media folder](Media/)**
 
 ---
-
----
 ## 🧭 Navigation
-- [⬆ Back to Collection](../../philosophy.md)
+- [⬆ Back to Collection](../../../../philosophy.md)
