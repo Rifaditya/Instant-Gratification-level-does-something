@@ -4,6 +4,7 @@ This file tracks which built versions (from `/Archive/builds/`) have been upload
 
 ## 🚀 Published & Backlog Queue
 
+- [ ] **1.0.10+26.3** (2026-11-27) - Replaced PlayerMixin SynchedEntityData with Dual-Delivery aura sync for vanilla-client compatibility and immediate GameRule updates.
 - [ ] **`1.0.9+26.3`** (2026-09-16) - Fixed @Redirect method signature in ClientPacketListenerMixin to include distanceDelay parameter.
 - [ ] **`1.0.8+26.3`** (2026-09-28) - Superclass @Shadow removal in ClientPacketListenerMixin.
 - [ ] **`1.0.7+26.3`** (2026-09-14) - GameRule snake_case compliance and config bounds polish.

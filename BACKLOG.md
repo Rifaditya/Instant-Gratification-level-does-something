@@ -1,7 +1,7 @@
 # 📌 Level Does Something Backlog
 
-<!-- Highest Historical ID: BL-LDS-007 (Next Ticket Must Start at BL-LDS-008) -->
-> **Next Available Ticket ID**: `[BL-LDS-008]`
+<!-- Highest Historical ID: BL-LDS-008 (Next Ticket Must Start at BL-LDS-009) -->
+> **Next Available Ticket ID**: `[BL-LDS-009]`
 
 This file tracks planned features, technical refinements, performance optimizations, and deferred bug fixes for **Level Does Something**.
 
@@ -22,6 +22,7 @@ This file tracks planned features, technical refinements, performance optimizati
 | [`BL-LDS-005`](tickets/BL-LDS-005.md) | `[TECH_DEBT]` | Adopt Per-Mod Advancement-Triggered Early Access Support Prompt (`DasikPromptRegistry`) | `[MEDIUM]` | `Opportunistic Per-Mod` | `📌 DEFERRED` | [View Ticket](tickets/BL-LDS-005.md) |
 | [`BL-LDS-006`](tickets/BL-LDS-006.md) | `[BUGFIX]` | Remove `SynchedEntityData.defineId` from `PlayerMixin` for Vanilla-Client Compatibility | `[CRITICAL]` | `26.1.2, 26.2, 26.3` | `📌 DEFERRED` | [View Ticket](tickets/BL-LDS-006.md) |
 | [`BL-LDS-007`](tickets/BL-LDS-007.md) | `[BUGFIX]` | Guard Optional Cloth Config Screen Factory in Root `26.1.2` `ModMenuIntegration` | `[HIGH]` | `26.1.2` | `📌 DEFERRED` | [View Ticket](tickets/BL-LDS-007.md) |
+| [`BL-LDS-008`](tickets/BL-LDS-008.md) | `[TECH_DEBT]` | Annotate Client Classes (`@Environment(EnvType.CLIENT)`) & Static Mixin Refmap Hygiene | `[MEDIUM]` | `26.1.2, 26.2, 26.3` | `📌 DEFERRED` | [View Ticket](tickets/BL-LDS-008.md) |
 
 ---
 

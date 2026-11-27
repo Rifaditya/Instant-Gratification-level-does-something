@@ -6,6 +6,7 @@ package net.instantgratification.leveldoessomething;
 
 import net.fabricmc.api.ModInitializer;
 import net.dasik.social.api.gamerule.DynamicGameRuleManager;
+import net.instantgratification.leveldoessomething.network.LevelAuraNetworking;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.gamerules.GameRule;
 import net.minecraft.world.level.gamerules.GameRuleCategory;
@@ -79,6 +80,7 @@ public class LevelDoesSomethingFabric implements ModInitializer {
         .description("When true, experience collection sounds will be pitch-shifted higher as the player's level increases, providing auditory feedback. Default: true.")
         .register();
 
-        LOGGER.info("Level Does Something! GameRules successfully registered.");
+        LevelAuraNetworking.registerServer();
+        LOGGER.info("Level Does Something! GameRules and Dual-Delivery networking successfully registered.");
     }
 }
