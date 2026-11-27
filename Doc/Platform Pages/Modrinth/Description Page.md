@@ -1,3 +1,7 @@
+> [!CAUTION]
+> ### 📦 Project Discontinued & Frozen
+> This project has been discontinued and locked in a frozen, feature-complete state. It remains fully compatible and stable for its target modern Minecraft releases, but no further updates, feature additions, or legacy version backports will be published.
+
 <div align="center">
   <img src="../../Media/icon.png" width="128" alt="Level Does Something Icon">
 </div>

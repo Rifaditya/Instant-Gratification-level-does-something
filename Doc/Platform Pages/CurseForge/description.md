@@ -1,3 +1,7 @@
+> [!CAUTION]
+> ### 📦 Project Discontinued & Frozen
+> This project has been discontinued and locked in a frozen, feature-complete state. It remains fully compatible and stable for its target modern Minecraft releases, but no further updates, feature additions, or legacy version backports will be published.
+
 <p align="center">
   <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api"><img src="https://img.shields.io/badge/Requires-Fabric_API-blue?style=for-the-badge&amp;logo=fabric" alt="Requires Fabric API"></a>
   <a href="https://www.curseforge.com/minecraft/mc-mods/dasik-libary"><img src="https://img.shields.io/badge/Requires-Dasik_Library-8A2BE2?style=for-the-badge" alt="Requires Dasik Library"></a>
@@ -50,7 +54,6 @@
 
 <blockquote><p><strong>🇮🇩 Indonesian Users:</strong> SocioBuzz and Saweria support local payment methods (Gopay, OVO, Dana, etc.) if you want to support me without using PayPal/Ko-fi!</p></blockquote>
 
-<blockquote><p><strong>Dedicated Server Hosting Partner:</strong><br>Looking for a high-performance server to host your community or play with friends? Check out <strong>BisectHosting</strong> for 1-click modpack installations, automated backups, and 24/7 dedicated customer support. Use promo code <strong><code>Dasik</code></strong> for 25% off your first month!</p></blockquote>
 
 <h3>💬 Join the Community &amp; Get Support</h3>
 <p>Looking for help, want to test early beta builds, or vote on upcoming features? Join our official Discord community!</p>

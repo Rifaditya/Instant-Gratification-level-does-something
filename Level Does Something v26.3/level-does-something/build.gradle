@@ -33,6 +33,13 @@ dependencies {
 
     compileOnly "com.terraformersmc:modmenu:18.0.0-beta.1"
     runtimeOnly "com.terraformersmc:modmenu:18.0.0-beta.1"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:5.11.4"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+test {
+    useJUnitPlatform()
 }
 
 processResources {
@@ -146,6 +153,20 @@ afterEvaluate {
                             into modrinthProfileMods
                         }
                         println "[MODRINTH-SYNC] Deployed ${jarFile.name} to ${modrinthProfileMods.canonicalPath}"
+                    }
+
+                    // External Vault Archive (OS-guarded for headless CI)
+                    if (file("D:/Minecraft Mod Archive Jars").exists()) {
+                        def fnLower = jarFile.name.toLowerCase()
+                        if (!fnLower.endsWith("-dev.jar") && !fnLower.endsWith("-sources.jar") && !fnLower.endsWith("-common.jar") && !fnLower.endsWith("-all.jar") && !fnLower.endsWith("-javadoc.jar")) {
+                            def vaultDir = file("D:/Minecraft Mod Archive Jars/Level Does Something")
+                            vaultDir.mkdirs()
+                            copy {
+                                from jarFile
+                                into vaultDir
+                            }
+                            println "[DEPLOY-POINT-3] Copied ${jarFile.name} to external vault: ${vaultDir.canonicalPath}"
+                        }
                     }
                 }
             }

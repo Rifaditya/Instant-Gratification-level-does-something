@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "leveldoessomething",
-    "version": "1.0.9+26.3",
+    "version": "${version}",
     "name": "Level Does Something",
     "description": "Rewards players for accumulating experience levels by granting passive attribute boosts and ambient visual/sound feedback.",
     "authors": [
@@ -32,7 +32,7 @@
     "depends": {
         "fabricloader": ">=0.19.5",
         "minecraft": ">=26.3-",
-        "dasik-library": ">=1.9.0",
+        "dasik-library": ">=1.9.2",
         "java": ">=25"
     },
     "suggests": {

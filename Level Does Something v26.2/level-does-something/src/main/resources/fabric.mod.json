@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "leveldoessomething",
-    "version": "1.0.9+26.2",
+    "version": "${version}",
     "name": "Level Does Something",
     "description": "Rewards players for accumulating experience levels by granting passive attribute boosts and ambient visual/sound feedback.",
     "authors": [
