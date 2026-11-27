@@ -4,6 +4,16 @@ All conceptual changes and design refinements for **Level Does Something** are r
 
 ---
 
+## [1.0.10] - 2026-11-27
+### Fixed
+- **`[BL-LDS-006]` Vanilla-Client Compatibility & Dual-Delivery Aura Sync (`MC 26.1.2` `1.0.10+A-26.1.2`, `MC 26.2` `1.0.10+26.2`, `MC 26.3` `1.0.10+26.3`)**:
+  - **Removed `SynchedEntityData.defineId` from `PlayerMixin`**: Eliminated `leveldoessomething$DATA_AURA_LEVEL` and `@Inject(method = "defineSynchedData", ...)` across all three active anchors (`26.1.2`, `26.2`, `26.3`), preserving 100% vanilla `Player` entity tracker ID parity so unmodded vanilla clients join without decoder mismatches or disconnects.
+  - **Dual-Delivery Networking (`LevelAuraSyncPayload` + `LevelAuraNetworking`)**: Registered optional S2C `CustomPacketPayload` (`leveldoessomething:aura_sync`) with `ServerPlayNetworking.canSend` detection and `ServerPlayConnectionEvents.JOIN` state sync for modded clients (`ClientPlayNetworking.registerGlobalReceiver` updating `LevelAuraTracker`), paired with a 4-tick throttled (`(tickCount & 3) == 0`) `ServerLevel.sendParticles(ServerPlayer, ...)` fallback for nearby unmodded vanilla clients.
+  - **Live `RULE_ENABLE_AURA` Tick Reactivity**: Updated `PlayerMixin#onTick` to react immediately to runtime `/gamerule` toggles regardless of XP level changes and guard `isSpectator() || isInvisible()`.
+  - **Verification**: Passed `18/18` JUnit tests per anchor, `code_auditor.py --check-vanilla-compat --scan-jars` (Suite 12 clean with `0` CRITICAL findings across `26.1.2`, `26.2`, and `26.3`), and live unmodded vanilla-client server join verification.
+
+---
+
 ## [1.0.8]
 ### Fixed
 - **ClientPacketListenerMixin Superclass Shadow Fix**: Removed invalid `@Shadow protected Minecraft minecraft;` in `ClientPacketListenerMixin`. The `minecraft` field is declared on `ClientCommonPacketListenerImpl` (superclass), which caused SpongePowered Mixin to crash during startup with an `InvalidMixinException`. Now accesses `Minecraft.getInstance().player` directly.

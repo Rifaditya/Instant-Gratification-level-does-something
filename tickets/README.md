@@ -12,7 +12,7 @@ This directory contains dedicated atomic ticket files for **Level Does Something
 | `[BL-LDS-002]` | `[TECH_DEBT]` | Adopt 5-Pillar Testing & Sidedness Verification Harness | `📦 RETIRED` | [`BL-LDS-002.md`](./BL-LDS-002.md) |
 | `[BL-LDS-004]` | `[TECH_DEBT]` | Wiki Audit & Update to Latest Version: Level Does Something | `📌 DEFERRED` | [`BL-LDS-004.md`](./BL-LDS-004.md) |
 | `[BL-LDS-005]` | `[TECH_DEBT]` | Adopt Per-Mod Advancement-Triggered Early Access Support Prompt (`DasikPromptRegistry`) | `📌 DEFERRED` | [`BL-LDS-005.md`](./BL-LDS-005.md) |
-| `[BL-LDS-006]` | `[BUGFIX]` | Remove `SynchedEntityData.defineId` from `PlayerMixin` for Vanilla-Client Compatibility | `📌 DEFERRED` | [`BL-LDS-006.md`](./BL-LDS-006.md) |
+| `[BL-LDS-006]` | `[BUGFIX]` | Remove `SynchedEntityData.defineId` from `PlayerMixin` for Vanilla-Client Compatibility | `✅ RESOLVED` | [`BL-LDS-006.md`](./BL-LDS-006.md) |
 | `[BL-LDS-007]` | `[BUGFIX]` | Guard Optional Cloth Config Screen Factory in Root `26.1.2` `ModMenuIntegration` | `📌 DEFERRED` | [`BL-LDS-007.md`](./BL-LDS-007.md) |
 | `[BL-LDS-008]` | `[TECH_DEBT]` | Annotate Client Classes (`@Environment(EnvType.CLIENT)`) & Static Mixin Refmap Hygiene | `📌 DEFERRED` | [`BL-LDS-008.md`](./BL-LDS-008.md) |
 
